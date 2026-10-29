@@ -17,8 +17,8 @@ public void backtrack(int[] nums, List<Integer> curr,List<List<Integer>> ans) {
             }
 
             curr.add(num);
-            backtrack(nums, curr, ans);
-            curr.remove(curr.size() - 1);
+            backtrack(nums,curr,ans);
+            curr.remove(curr.size()-1);
         }
     }
 }
